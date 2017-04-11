@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGitFlowConsole", "TestGitFlowConsole\TestGitFlowConsole.csproj", "{EE5E83BE-D8C6-4BD9-AED4-59D2DA89ACEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26106_library", "26106_library\26106_library.csproj", "{12759AF8-934F-4109-AE54-0E349670E511}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EE5E83BE-D8C6-4BD9-AED4-59D2DA89ACEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE5E83BE-D8C6-4BD9-AED4-59D2DA89ACEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE5E83BE-D8C6-4BD9-AED4-59D2DA89ACEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12759AF8-934F-4109-AE54-0E349670E511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12759AF8-934F-4109-AE54-0E349670E511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12759AF8-934F-4109-AE54-0E349670E511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12759AF8-934F-4109-AE54-0E349670E511}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
