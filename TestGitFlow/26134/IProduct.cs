@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace _26134
 {
-    interface IProduct
+    public interface IProduct
     {
+        int Id { get; set; }
+        float Price { get; set; }
+        Category Phone { get; set; }
+    }
+
+    public enum Category
+    {
+        FiveClass,
+        FivePlan
     }
 }
