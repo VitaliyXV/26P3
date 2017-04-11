@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace _26114_library
 {
-    public class Class1
+    class Phone:IProduct
     {
+
     }
 }
