@@ -6,7 +6,5 @@ using System.Threading.Tasks;
 
 namespace create_26133_library
 {
-    public class Class1
-    {
-    }
+    enum Category {lg, xiomi, samsung, apple, nokia};
 }
