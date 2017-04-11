@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26130_library
+namespace _26130_library.Product
 {
-    public class Class1
+   public  enum Phone
     {
+        IPhone,
+        Samsung,
+        Nokia,
+        Sony,
+        HTC
     }
 }
