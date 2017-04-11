@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace _26139
 {
-    public class Class1
-    {
-    }
+	public enum Category
+	{
+		Phone,
+		Route,
+		Computer,
+		Notebook,
+		Keyboard
+	}
 }
