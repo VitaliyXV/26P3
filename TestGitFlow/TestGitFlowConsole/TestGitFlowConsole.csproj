@@ -48,9 +48,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\26136\26136.csproj">
-      <Project>{e988c139-cc45-48dd-9fac-7c8c85d05d18}</Project>
-      <Name>26136</Name>
+    <ProjectReference Include="..\create_26108_library\create_26108_library.csproj">
+      <Project>{48f97572-8f77-459d-8089-e7414dde39e0}</Project>
+      <Name>create_26108_library</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
