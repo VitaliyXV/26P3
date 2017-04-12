@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace create_26108_library
 {
-    public class Phone: IProduct
+    public class Boots
     {
         public int Id
         {
@@ -24,6 +24,6 @@ namespace create_26108_library
 
         }
 
-        CategoryType type { get { return CategoryType.Phone; } }        
+        CategoryType type { get { return CategoryType.Boots; } }    
     }
 }

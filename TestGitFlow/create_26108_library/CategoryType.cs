@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace create_26108_library
 {
-    interface IProduct
+    public enum CategoryType
     {
-        int Id { get; set; }
-        int Price { get; set; }
-
-        Type type { get; set; }
+        Phone,
+        Car,
+        Window,
+        Food,
+        Boots
     }
 }
