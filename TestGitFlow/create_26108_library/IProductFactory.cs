@@ -8,7 +8,10 @@ namespace create_26108_library
 {
     public interface IProductFactory
     {
+        IProduct product;
         
-       //IProduct product = CreatorList.CreateProduct<CategoryType.Food>();
+        
+
+
     }
 }
