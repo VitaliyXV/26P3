@@ -11,7 +11,7 @@ namespace _26136.Creator
     {
         private static Dictionary<CategoryType, ProductCreator> ProductCreaters = new Dictionary<CategoryType, ProductCreator>();
 
-        public Director()
+        static Director()
         {
             ProductCreaters.Add(CategoryType.Clothing, new ShirtCreator());
             ProductCreaters.Add(CategoryType.ElectricalEngineering, new ComputerCreator());
