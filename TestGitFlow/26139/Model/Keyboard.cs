@@ -12,20 +12,12 @@ namespace _26139.Model
 		{
 			get { return Category.Keyboard; }
 		}
-
-<<<<<<< HEAD:TestGitFlow/26139/Model/Keyboard.cs
+        
 		public int Id
 		{
 			get;
 			private set;
 		}
-=======
-        public int Id
-        {
-            get;
-            set;
-        }
->>>>>>> develop:TestGitFlow/26139/Keyboard.cs
 
 		public int Price
 		{
