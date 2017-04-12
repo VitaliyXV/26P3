@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-﻿namespace TestGitFlowConsole
+namespace create_26108_library
 {
-    class Program
+    public interface IProduct
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        int Id { get;  }
+        int Price { get;  }
+
+       
     }
 }

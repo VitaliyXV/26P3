@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _25120
+namespace _26131_library
 {
     public interface IProduct
     {
-        int id { get; set;}
-        double price { get; set; }
-        Category category { get;}
+        int Id { get; }
+        int Price { get; }
+        Chocolate Category { get; }
     }
 }

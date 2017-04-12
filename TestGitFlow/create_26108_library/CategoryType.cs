@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-﻿namespace TestGitFlowConsole
+namespace create_26108_library
 {
-    class Program
+    public enum CategoryType
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        Phone,
+        Car,
+        Window,
+        Food,
+        Boots
     }
 }

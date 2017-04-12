@@ -6,18 +6,23 @@ using System.Threading.Tasks;
 
 namespace _26144
 {
-    public class Phone : IProduct
+    class Climate : IProduct
     {
         public int Id { get; private set; }
         public int Price { get; set; }
         public Category Category { get; private set; }
 
-        public void RingToMother()
+        public void Cool()
         {
-            Console.WriteLine("Allo, Mother!");
+            Console.WriteLine("Cool this room");
         }
 
-        public Phone(int id, int price)
+        public void Warm()
+        {
+            Console.WriteLine("Warm this room");
+        }
+
+        public Climate(int id, int price)
         {
             Id = id;
             Price = price;

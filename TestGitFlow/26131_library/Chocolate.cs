@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-﻿namespace TestGitFlowConsole
+namespace _26131_library
 {
-    class Program
+    public enum Chocolate
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        Korona,
+        Switoch,
+        MaxFun,
+        Milka,
+        Roshen
     }
 }
