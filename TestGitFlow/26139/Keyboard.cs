@@ -10,31 +10,18 @@ namespace _26139
 	{
 		public Category Category
 		{
-			get
-			{
-				throw new NotImplementedException();
-			}
+			get { return Category.Keyboard; }
 		}
 
 		public int Id
 		{
-			get
-			{
-				throw new NotImplementedException();
-			}
+			get;
 		}
 
 		public int Price
 		{
-			get
-			{
-				throw new NotImplementedException();
-			}
-
-			set
-			{
-				throw new NotImplementedException();
-			}
+			get;
+			set;
 		}
 	}
 }
