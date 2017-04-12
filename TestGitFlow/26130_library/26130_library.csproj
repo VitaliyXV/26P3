@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EE5E83BE-D8C6-4BD9-AED4-59D2DA89ACEC}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{1B711053-989D-42F7-A458-155EB8EC5076}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestGitFlowConsole</RootNamespace>
-    <AssemblyName>TestGitFlowConsole</AssemblyName>
+    <RootNamespace>_26130_library</RootNamespace>
+    <AssemblyName>_26130_library</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,23 +39,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Product\IProduct.cs" />
+    <Compile Include="Product\Phone.cs" />
+    <Compile Include="Product\PhoneFive.cs" />
+    <Compile Include="Product\PhoneFour.cs" />
+    <Compile Include="Product\PhoneOne.cs" />
+    <Compile Include="Product\PhoneThree.cs" />
+    <Compile Include="Product\PhoneToo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-<<<<<<< HEAD
-    <ProjectReference Include="..\26114_library\26114_library.csproj">
-      <Project>{0be5c367-7b9e-4ed0-83b1-cc232ae998d6}</Project>
-      <Name>26114_library</Name>
-=======
-    <ProjectReference Include="..\26136\26136.csproj">
-      <Project>{e988c139-cc45-48dd-9fac-7c8c85d05d18}</Project>
-      <Name>26136</Name>
->>>>>>> develop
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
