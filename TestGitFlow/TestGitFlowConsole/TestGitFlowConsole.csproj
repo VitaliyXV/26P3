@@ -48,16 +48,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ProjectReference Include="..\26114_library\26114_library.csproj">
-      <Project>{0be5c367-7b9e-4ed0-83b1-cc232ae998d6}</Project>
-      <Name>26114_library</Name>
-=======
-    <ProjectReference Include="..\26136\26136.csproj">
-      <Project>{e988c139-cc45-48dd-9fac-7c8c85d05d18}</Project>
-      <Name>26136</Name>
->>>>>>> develop
-    </ProjectReference>
+
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
