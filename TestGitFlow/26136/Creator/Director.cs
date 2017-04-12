@@ -7,17 +7,31 @@ using _26136.Model;
 
 namespace _26136.Creator
 {
-    public class Director
+    public static class Director
     {
+        private static Dictionary<CategoryType, ProductCreator> ProductCreaters = new Dictionary<CategoryType, ProductCreator>();
+
+        public Director()
+        {
+            ProductCreaters.Add(CategoryType.Clothing, new ShirtCreator());
+            ProductCreaters.Add(CategoryType.ElectricalEngineering, new ComputerCreator());
+            ProductCreaters.Add(CategoryType.Food, new SaladCreator());
+            ProductCreaters.Add(CategoryType.Furniture, new SofaCreator());
+            ProductCreaters.Add(CategoryType.Games, new BoardGamesCreator());
+        }
+
+       
+
+
         public static IProduct CreateProduct(CategoryType type,int id,int price)
         {
-            IProduct product = null;
             ProductCreator cr;
+            IProduct product = null;
 
+            cr = ProductCreaters[type];
             switch (type)
             {
                 case CategoryType.Food:
-                    cr = new SaladCreator();
                     product = cr.CreateProduct(id,price);
                     break;
                 case CategoryType.ElectricalEngineering:
@@ -25,15 +39,12 @@ namespace _26136.Creator
                     product = cr.CreateProduct(id,price);
                     break;
                 case CategoryType.Clothing:
-                     cr = new ShirtCreator();
                     product = cr.CreateProduct(id,price);
                    break;
                 case CategoryType.Furniture:
-                     cr = new SofaCreator();
                     product = cr.CreateProduct(id,price);
                     break;
                 case CategoryType.Games:
-                    cr = new BoardGamesCreator();
                     product = cr.CreateProduct(id,price);
                     break;
                 default:
