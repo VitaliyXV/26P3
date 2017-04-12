@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26139
+namespace _26139.Model
 {
 	class Computer : IProduct
 	{
@@ -12,13 +12,12 @@ namespace _26139
 		{
 			get { return Category.Computer; }
 		}
-
-        public int Id
-        {
-            get;
-
-            set;
-        }
+        
+		public int Id
+		{
+			get;
+			private set;
+		}
 
 		public int Price
 		{

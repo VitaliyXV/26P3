@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _26134
 {
-    public class Class1
+    public class Rostislav
     {
     }
 }

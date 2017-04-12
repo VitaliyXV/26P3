@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26139
+namespace _26139.Model
 {
-	public class Phone : IProduct
+	class Route : IProduct
 	{
 		public int Id
 		{
@@ -25,7 +25,7 @@ namespace _26139
 			get { return Category.Phone; }
 		}
 
-		public Phone()
+		public Route()
 		{
 
 		}
