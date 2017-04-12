@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace _26136.Model
 {
-    class Phone : IProduct
+    public class Phone : IProduct
     {
         public int Id { get; set; }
 
         public int Price { get; set; }
 
-        public Category Type { get; set; }
+        public CategoryType Type { get; set; }
     }
 }

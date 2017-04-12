@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace _26136.Model
 {
-    public enum Category
+    public enum CategoryType
     {
-        Apple,
-        Samsung,
-        Vertu,
-        Nokia,
-        Meizu
+        Food,
+        ElectricalEngineering,
+        Сlothing,
+        Furniture,
+        Games
     }
 
-    interface IProduct 
+   public interface IProduct 
     {
         int Id { get; }
         int Price { get; }
-        Category Type { get; }
+        CategoryType Type { get; }
     }
 }

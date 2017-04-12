@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _26136.Model
 {
-    public class Computer : IProduct
+    public class Salad : IProduct
     {
         public int Id { get; set; }
 
