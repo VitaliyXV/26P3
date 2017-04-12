@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26134
+namespace _26106_library
 {
-    public class Rostislav
+    public interface IProductFactory
     {
+        void CreateProduct();
     }
 }
