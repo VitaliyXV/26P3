@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26139
+namespace _26139.Model
 {
-	public interface IProduct
+	public enum Category
 	{
-		int Id { get; }
-		int Price { get; set; }
-		Category Category { get; }
+		Phone,
+		Route,
+		Computer,
+		Notebook,
+		Keyboard
 	}
 }
