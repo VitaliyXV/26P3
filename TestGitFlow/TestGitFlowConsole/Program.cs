@@ -12,10 +12,7 @@ namespace TestGitFlowConsole
         static void Main(string[] args)
         {
             Director dr = new Director();
-            IProduct prod = dr.CreateProduct<type>();
-
-
-
+            IProduct prod = dr.CreateProduct(1, 2.5, type.black);
         }
     }
 }

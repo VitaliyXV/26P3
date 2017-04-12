@@ -9,13 +9,11 @@ namespace _26114_library
     public class Director
     {
         private IProduct prod;
-        public IProduct CreateProduct<T>() where T : new()
+        public IProduct CreateProduct(int Id, double price, type type)
         {
-
-            prod = new Phone(1, 2.3, type.aukva);
+            prod = new Phone(Id, price, type);
             return prod;
         }
-    
     }
 
 
