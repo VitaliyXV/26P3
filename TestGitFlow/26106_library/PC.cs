@@ -6,7 +6,7 @@ namespace _26106_library
         public int Id
         {
             get { return Id; }
-            protected set
+            set
             {
                 Id = value;
             }
@@ -15,7 +15,7 @@ namespace _26106_library
         public int Price
         {
             get { return Price; }
-            protected set
+            set
             {
                 Price = value;
             }
@@ -24,7 +24,7 @@ namespace _26106_library
         public Categories Category
         {
             get { return Categories.PC; }
-            protected set
+            set
             {
                 Category = value;
             }
