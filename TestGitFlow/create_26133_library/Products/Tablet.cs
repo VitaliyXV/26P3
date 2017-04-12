@@ -8,43 +8,12 @@ namespace create_26133_library
 {
     class Tablet : IProduct
     {
-        public Category Category
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
+        public Category Category { get; set; }
 
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
+        public int Id  {  get;  set; }
 
-        public int Id
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
+        public int Price { get; set; }
 
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public int Price
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
+        public string ProductName { get; set; }
     }
 }
