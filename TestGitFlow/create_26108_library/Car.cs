@@ -24,6 +24,9 @@ namespace create_26108_library
 
         }
 
-        CategoryType type { get { return CategoryType.Car; } }    
+        CategoryType type { get { return CategoryType.Car; } }
+
+
+        
     }
 }

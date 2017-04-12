@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace create_26108_library
 {
-    interface IProduct
+    public interface IProduct
     {
-        int Id { get; set; }
-        int Price { get; set; }
+        int Id { get;  }
+        int Price { get;  }
 
-        Type type { get; set; }
+       
     }
 }
