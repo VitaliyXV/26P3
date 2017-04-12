@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26139
+namespace xv
 {
-	public interface IProduct
-	{
-		int Id { get; }
-		int Price { get; set; }
-		Category Category { get; }
-	}
+    public class FirstClass
+    {
+    }
 }

@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26134
+namespace _26139.Model
 {
-    public class Class1
-    {
-    }
+	public enum Category
+	{
+		Phone,
+		Route,
+		Computer,
+		Notebook,
+		Keyboard
+	}
 }
