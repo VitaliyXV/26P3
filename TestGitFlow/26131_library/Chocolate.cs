@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace _26131_library
 {
-    public class Class1
+    public enum Chocolate
     {
+        Korona,
+        Switoch,
+        MaxFun,
+        Milka,
+        Roshen
     }
 }
