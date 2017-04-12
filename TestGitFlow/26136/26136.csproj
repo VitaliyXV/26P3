@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\CategoryType.cs" />
     <Compile Include="Model\Computer.cs" />
     <Compile Include="Model\IProduct.cs" />
     <Compile Include="Model\BoardGames.cs" />
