@@ -11,12 +11,7 @@ namespace TestGitFlowConsole
     {
         static void Main(string[] args)
         {
-            IProduct phone = new Phone();
-            phone.Id = 1;
-            phone.Price = 700;
-            phone.Category = Categories.Phone;
-
-            Console.WriteLine("{0}.{1} - phone ${2}", phone.Id, phone.Category, phone.Price);
+            
         }
     }
 }
