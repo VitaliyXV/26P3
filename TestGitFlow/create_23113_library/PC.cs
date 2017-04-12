@@ -23,7 +23,6 @@ namespace create_26113_library
         public Categories Category
         {
             get { return Categories.PC; }
-            protected set { Category = value; }
         }
     }
 }
