@@ -12,6 +12,6 @@ namespace _26136.Model
 
         public int Price { get; set; }
 
-        public CategoryType Type { get; set; }
+        public CategoryType Type { get { return CategoryType.Games; } }
     }
 }
