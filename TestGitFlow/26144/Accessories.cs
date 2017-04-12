@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace _26144
 {
-    public class Phone : IProduct
+    class Accessories : IProduct
     {
         public int Id { get; private set; }
         public int Price { get; set; }
         public Category Category { get; private set; }
 
-        public void RingToMother()
+        public void ConnectThisDevice()
         {
-            Console.WriteLine("Allo, Mother!");
+            Console.WriteLine("Connecting this device...");
         }
 
-        public Phone(int id, int price)
+        public Accessories(int id, int price)
         {
             Id = id;
             Price = price;
