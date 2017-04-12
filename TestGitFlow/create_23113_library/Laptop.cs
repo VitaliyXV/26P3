@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace create_23113_library
+namespace create_26113_library
 {
     public class Laptop : IProduct
+    {
         public int Id
         {
             get { return Id; }
@@ -21,8 +22,7 @@ namespace create_23113_library
 
         public Categories Category
         {
-            get { return Category; }
-            protected set { Category = value; }
+            get { return Categories.Laptop; }
         }
     }
 }

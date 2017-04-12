@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace create_23113_library
+namespace create_26113_library
 {
     public class Smartphone : IProduct
     {
@@ -22,7 +22,7 @@ namespace create_23113_library
 
         public Categories Category
         {
-            get { return Category; }
+            get { return Categories ; }
             protected set { Category = value; }
         }
     }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace create_23113_library
+namespace create_26113_library
 {
-    public class Tablet :IProduct
+    public class Tablet : IProduct
     {
         public int Id
         {
