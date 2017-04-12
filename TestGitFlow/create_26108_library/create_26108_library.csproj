@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EE5E83BE-D8C6-4BD9-AED4-59D2DA89ACEC}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{48F97572-8F77-459D-8089-E7414DDE39E0}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestGitFlowConsole</RootNamespace>
-    <AssemblyName>TestGitFlowConsole</AssemblyName>
+    <RootNamespace>create_26108_library</RootNamespace>
+    <AssemblyName>create_26108_library</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,41 +39,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Boots.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="CategoryType.cs" />
+    <Compile Include="CreatorList.cs" />
+    <Compile Include="Food.cs" />
+    <Compile Include="IProduct.cs" />
+    <Compile Include="IProductFactory.cs" />
+    <Compile Include="Phone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\26106_library\26106_library.csproj">
-      <Project>{12759af8-934f-4109-ae54-0e349670e511}</Project>
-      <Name>26106_library</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\26130_library\26130_library.csproj">
-      <Project>{1b711053-989d-42f7-a458-155eb8ec5076}</Project>
-      <Name>26130_library</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\26134\26134.csproj">
-      <Project>{011f73e7-0956-45a0-8f9d-fe5211a72266}</Project>
-      <Name>26134</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\26136\26136.csproj">
-      <Project>{e988c139-cc45-48dd-9fac-7c8c85d05d18}</Project>
-      <Name>26136</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\26139\26139.csproj">
-      <Project>{7964b817-5743-4020-aaba-2933bb0ee2a4}</Project>
-      <Name>26139</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\create_26108_library\create_26108_library.csproj">
-      <Project>{48f97572-8f77-459d-8089-e7414dde39e0}</Project>
-      <Name>create_26108_library</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\create_26133_library\create_26133_library.csproj">
-      <Project>{862ab5ea-d2f8-46f5-ac7a-5a3d06d28eeb}</Project>
-      <Name>create_26133_library</Name>
-    </ProjectReference>
+    <Compile Include="Window.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
