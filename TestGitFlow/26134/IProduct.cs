@@ -8,14 +8,17 @@ namespace _26134
 {
     public interface IProduct
     {
-        int Id { get; set; }
-        float Price { get; set; }
-        Category Phone { get; set; }
+        int Id { get;  }
+        float Price { get; }
+        Category category { get;  }
     }
 
     public enum Category
     {
-        FiveClass,
-        FivePlan
+        vegetables,
+        fruits,
+        berries,
+        meats,
+        sweetFeed
     }
 }
