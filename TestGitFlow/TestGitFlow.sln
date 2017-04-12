@@ -1,6 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-<<<<<<< HEAD
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -9,16 +8,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26114_library", "26114_library\26114_library.csproj", "{0BE5C367-7B9E-4ED0-83B1-CC232AE998D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26134", "26134\26134.csproj", "{13D62648-CDC5-4D8A-A577-53BE2B8C8C73}"
-=======
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGitFlowConsole", "TestGitFlowConsole\TestGitFlowConsole.csproj", "{EE5E83BE-D8C6-4BD9-AED4-59D2DA89ACEC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "create_26133_library", "create_26133_library\create_26133_library.csproj", "{862AB5EA-D2F8-46F5-AC7A-5A3D06D28EEB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26134", "26134\26134.csproj", "{011F73E7-0956-45A0-8F9D-FE5211A72266}"
->>>>>>> develop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26130_library", "26130_library\26130_library.csproj", "{1B711053-989D-42F7-A458-155EB8EC5076}"
 EndProject
@@ -32,7 +23,6 @@ Global
 		{EE5E83BE-D8C6-4BD9-AED4-59D2DA89ACEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE5E83BE-D8C6-4BD9-AED4-59D2DA89ACEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE5E83BE-D8C6-4BD9-AED4-59D2DA89ACEC}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{0BE5C367-7B9E-4ED0-83B1-CC232AE998D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0BE5C367-7B9E-4ED0-83B1-CC232AE998D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BE5C367-7B9E-4ED0-83B1-CC232AE998D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,20 +31,14 @@ Global
 		{13D62648-CDC5-4D8A-A577-53BE2B8C8C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13D62648-CDC5-4D8A-A577-53BE2B8C8C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13D62648-CDC5-4D8A-A577-53BE2B8C8C73}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
 		{862AB5EA-D2F8-46F5-AC7A-5A3D06D28EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{862AB5EA-D2F8-46F5-AC7A-5A3D06D28EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{862AB5EA-D2F8-46F5-AC7A-5A3D06D28EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{862AB5EA-D2F8-46F5-AC7A-5A3D06D28EEB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{011F73E7-0956-45A0-8F9D-FE5211A72266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{011F73E7-0956-45A0-8F9D-FE5211A72266}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{011F73E7-0956-45A0-8F9D-FE5211A72266}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{011F73E7-0956-45A0-8F9D-FE5211A72266}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1B711053-989D-42F7-A458-155EB8EC5076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1B711053-989D-42F7-A458-155EB8EC5076}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B711053-989D-42F7-A458-155EB8EC5076}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B711053-989D-42F7-A458-155EB8EC5076}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> develop
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
