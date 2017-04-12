@@ -39,15 +39,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Category.cs" />
-    <Compile Include="Computer.cs" />
-    <Compile Include="Desktop.cs" />
     <Compile Include="Director.cs" />
-    <Compile Include="IProduct.cs" />
-    <Compile Include="IProductFactory.cs" />
-    <Compile Include="Keyboard.cs" />
-    <Compile Include="Phone.cs" />
-    <Compile Include="Printer.cs" />
+    <Compile Include="Model\Category.cs" />
+    <Compile Include="Model\Computer.cs" />
+    <Compile Include="Model\Desktop.cs" />
+    <Compile Include="Model\Director.cs" />
+    <Compile Include="Model\IProduct.cs" />
+    <Compile Include="Factory\IProductFactory.cs" />
+    <Compile Include="Model\Keyboard.cs" />
+    <Compile Include="Model\Phone.cs" />
+    <Compile Include="Model\Printer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
