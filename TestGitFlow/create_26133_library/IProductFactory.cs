@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26134
+namespace create_26133_library
 {
-    public class Class1
+   public interface IProductFactory
     {
+        IProduct CreateProduct(Category category);
     }
 }

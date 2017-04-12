@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace create_26133_library
+namespace _26134
 {
-    public  enum Category {lg, xiomi, samsung, apple, nokia};
+    public class Rostislav
+    {
+    }
 }
