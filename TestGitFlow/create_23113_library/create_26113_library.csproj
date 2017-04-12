@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3102DE2D-1D7D-4581-AF4E-B39ADDF0098E}</ProjectGuid>
+    <ProjectGuid>{A358D9B5-8BC5-4924-8210-4F221F2EF344}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>create_26113_library</RootNamespace>
