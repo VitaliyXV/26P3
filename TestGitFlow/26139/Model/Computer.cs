@@ -4,18 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26139
+namespace _26139.Model
 {
-	class Notebook : IProduct
+	class Computer : IProduct
 	{
 		public Category Category
 		{
-			get { return Category.Notebook; }
+			get { return Category.Computer; }
 		}
 
 		public int Id
 		{
 			get;
+			private set;
 		}
 
 		public int Price

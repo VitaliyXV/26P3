@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26139
+namespace _26139.Model
 {
 	class Keyboard : IProduct
 	{
@@ -16,6 +16,7 @@ namespace _26139
 		public int Id
 		{
 			get;
+			private set;
 		}
 
 		public int Price
