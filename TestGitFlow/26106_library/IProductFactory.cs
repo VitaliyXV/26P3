@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestGitFlowConsole
+namespace _26106_library
 {
-    class Program
+    public interface IProductFactory
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        void CreateProduct();
     }
 }
