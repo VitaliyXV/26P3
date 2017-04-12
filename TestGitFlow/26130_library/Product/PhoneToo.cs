@@ -12,6 +12,6 @@ namespace _26130_library.Product
 
         public int Price { get { return 2000; }  }
 
-        public Phone Category { get { return Phone.IPhone; }  }
+        public Phone Category { get { return Phone.Apple; }  }
     }
 }

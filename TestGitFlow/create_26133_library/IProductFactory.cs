@@ -4,14 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26130_library.Product
+namespace create_26133_library
 {
-   public  enum Phone
+   public interface IProductFactory
     {
-        Apple,
-        Samsung,
-        Nokia,
-        Sony,
-        HTC
+        IProduct CreateProduct(Category category);
     }
 }

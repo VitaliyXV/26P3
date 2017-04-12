@@ -76,6 +76,12 @@
       <Project>{862ab5ea-d2f8-46f5-ac7a-5a3d06d28eeb}</Project>
       <Name>create_26133_library</Name>
     </ProjectReference>
+<<<<<<< HEAD
+=======
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+>>>>>>> develop
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
