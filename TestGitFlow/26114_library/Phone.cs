@@ -8,11 +8,11 @@ namespace _26114_library
 {
     public class Phone : IProduct
     {
-        public int Id { get { return Id; } private set { Id = value; } }
+        public int Id { get; private set; }
 
-        public double Price { get { return Price; } private set { Price = value; } }
+        public double Price { get; private set; }
 
-        public type Type { get { return Type; } private set { Type = value; } }
+        public type Type { get; private set; }
 
         public Phone(int Id, double Price, type Type)
         {

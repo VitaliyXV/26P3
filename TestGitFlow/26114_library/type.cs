@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace _26114_library
 {
-    public interface IProduct
+    public enum type
     {
-        int Id { get; }
-        double Price { get; }
-        type Type { get; }
-
+        smartfon,
+        phone,
+        dual_sim,
+        aukva,
+        black
     }
-        
 }
