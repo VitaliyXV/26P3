@@ -8,6 +8,6 @@ namespace _25120
 {
     public class IProductFactory
     {
-
+        void CreateProduct();
     }
 }

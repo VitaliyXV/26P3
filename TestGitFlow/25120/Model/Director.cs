@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace _25120
 {
-    class Director
+    public class Director
     {
-
+        /*
+        public Category CreateProduct()
+        {
+            
+        }
+        */
     }
 }
