@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26136.Model
+namespace _26144
 {
-   public interface IProduct 
+    public interface IProduct
     {
         int Id { get; }
-        int Price { get; }
-        CategoryType Type { get; }
+        int Price { get; set; }
+        Category Category { get; }
+
     }
 }
