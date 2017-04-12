@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _26114_library;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,11 @@ namespace TestGitFlowConsole
     {
         static void Main(string[] args)
         {
+            Director dr = new Director();
+            IProduct prod = dr.CreateProduct<type>();
+
+
+
         }
     }
 }
