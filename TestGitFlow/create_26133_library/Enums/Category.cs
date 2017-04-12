@@ -4,12 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestGitFlowConsole
+namespace create_26133_library
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
+    enum Category {lg, xiomi, samsung, apple, nokia};
 }

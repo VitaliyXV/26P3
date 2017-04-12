@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestGitFlowConsole
+namespace _26130_library.Product
 {
-    class Program
+   public  enum Phone
     {
-        static void Main(string[] args)
-        {
-        }
+        IPhone,
+        Samsung,
+        Nokia,
+        Sony,
+        HTC
     }
 }
