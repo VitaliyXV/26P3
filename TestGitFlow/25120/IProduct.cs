@@ -8,10 +8,8 @@ namespace _25120
 {
     public interface IProduct
     {
-        /*
-        int id;
-        double price;
-        Category category;
-        */ 
+        int id { get; set;}
+        double price { get; set; }
+        Category category { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _25120
 {
-    class Phone:IProduct
+    public class Computer : IProduct
     {
         public int id { get; set; }
         public double price { get; set; }

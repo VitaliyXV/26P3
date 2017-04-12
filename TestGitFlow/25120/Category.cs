@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace _25120
 {
-    enum Category { IPHONE, SUMSUNG, LG, NOKIA, SIMENS }
+    public enum Category { PHONE, COMPUTER, DESKTOP, KEYBOARD, PRINTER }
 }
