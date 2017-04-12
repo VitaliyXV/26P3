@@ -22,8 +22,7 @@ namespace create_26113_library
 
         public Categories Category
         {
-            get { return Category; }
-            protected set { Category = value; }
+            get { return Categories.Tablet; }
         }
     }
 }

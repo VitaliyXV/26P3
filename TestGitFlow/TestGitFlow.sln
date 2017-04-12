@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGitFlowConsole", "TestGitFlowConsole\TestGitFlowConsole.csproj", "{EE5E83BE-D8C6-4BD9-AED4-59D2DA89ACEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "create_23113_library", "create_23113_library\create_23113_library.csproj", "{3102DE2D-1D7D-4581-AF4E-B39ADDF0098E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "create_26113_library", "create_23113_library\create_26113_library.csproj", "{3102DE2D-1D7D-4581-AF4E-B39ADDF0098E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26134", "26134\26134.csproj", "{011F73E7-0956-45A0-8F9D-FE5211A72266}"
 EndProject
