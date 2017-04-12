@@ -13,10 +13,11 @@ namespace _26139
 			get { return Category.Keyboard; }
 		}
 
-		public int Id
-		{
-			get;
-		}
+        public int Id
+        {
+            get;
+            set;
+        }
 
 		public int Price
 		{
