@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26134
+namespace create_26108_library
 {
-    public class Rostislav
+    public enum CategoryType
     {
+        Phone,
+        Car,
+        Window,
+        Food,
+        Boots
     }
 }

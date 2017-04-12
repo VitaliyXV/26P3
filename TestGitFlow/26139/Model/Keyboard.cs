@@ -4,10 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26139
+namespace _26139.Model
 {
-	class Route : IProduct
+	class Keyboard : IProduct
 	{
+		public Category Category
+		{
+			get { return Category.Keyboard; }
+		}
+        
 		public int Id
 		{
 			get;
@@ -18,16 +23,6 @@ namespace _26139
 		{
 			get;
 			set;
-		}
-
-		public Category Category
-		{
-			get { return Category.Phone; }
-		}
-
-		public Route()
-		{
-
 		}
 	}
 }

@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26134
+namespace create_26108_library
 {
-    public class Rostislav
+    public interface IProduct
     {
+        int Id { get;  }
+        int Price { get;  }
+
+       
     }
 }

@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26134
+namespace _26131_library
 {
-    public class Rostislav
+    public enum Chocolate
     {
+        Korona,
+        Switoch,
+        MaxFun,
+        Milka,
+        Roshen
     }
 }

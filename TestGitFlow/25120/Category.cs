@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26134
+namespace _25120
 {
-    public class Rostislav
-    {
-    }
+    public enum Category { PHONE, COMPUTER, DESKTOP, KEYBOARD, PRINTER }
 }
