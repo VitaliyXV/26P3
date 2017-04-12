@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace _26136.Model
 {
-   public interface IProduct 
+    public enum CategoryType
     {
-        int Id { get; }
-        int Price { get; }
-        CategoryType Type { get; }
+        Food,
+        ElectricalEngineering,
+        Clothing,
+        Furniture,
+        Games
     }
 }
