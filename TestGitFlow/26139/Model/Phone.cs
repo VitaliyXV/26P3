@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26139
+namespace _26139.Model
 {
 	public class Phone : IProduct
 	{
