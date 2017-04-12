@@ -13,11 +13,20 @@ namespace _26139.Model
 			get { return Category.Computer; }
 		}
 
+<<<<<<< HEAD:TestGitFlow/26139/Model/Computer.cs
 		public int Id
 		{
 			get;
 			private set;
 		}
+=======
+        public int Id
+        {
+            get;
+
+            set;
+        }
+>>>>>>> develop:TestGitFlow/26139/Computer.cs
 
 		public int Price
 		{
