@@ -10,6 +10,6 @@ namespace _25120
     {
         public int id { get; set; }
         public double price { get; set; }
-        public Category category { get; set; }
+        public Category category { get { return Category.KEYBOARD; } }
     }
 }
