@@ -48,6 +48,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\26106_library\26106_library.csproj">
+      <Project>{12759af8-934f-4109-ae54-0e349670e511}</Project>
+      <Name>26106_library</Name>
+    </ProjectReference>
     <ProjectReference Include="..\create_26108_library\create_26108_library.csproj">
       <Project>{48f97572-8f77-459d-8089-e7414dde39e0}</Project>
       <Name>create_26108_library</Name>
