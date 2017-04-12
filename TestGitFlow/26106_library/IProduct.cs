@@ -3,8 +3,8 @@ namespace _26106_library
 {
     public interface IProduct
     {
-        int Id { get; }
-        int Price { get; }
+        int Id { get; set; }
+        int Price { get; set; }
         Categories Category { get; }
     }
 }
