@@ -10,14 +10,14 @@ namespace create_26113_library
     {
         public int Id
         {
-            get { return Id; }
-            protected set { Id = value; }
+            get;
+            protected set;
         }
 
         public int Price
         {
-            get { return Price; }
-            protected set { Price = value; }
+            get;
+            protected set;
         }
 
         public Categories Category

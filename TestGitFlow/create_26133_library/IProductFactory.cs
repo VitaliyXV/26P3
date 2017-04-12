@@ -6,5 +6,8 @@ using System.Threading.Tasks;
 
 namespace create_26133_library
 {
-    public  enum Category {lg, xiomi, samsung, apple, nokia};
+   public interface IProductFactory
+    {
+        IProduct CreateProduct(Category category);
+    }
 }
