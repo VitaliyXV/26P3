@@ -9,12 +9,17 @@ namespace TestGitFlowConsole
     {
         static void Main(string[] args)
         {
-            IProduct prod = Director.CreateProductG<Laptop>();
+            IProduct prod = Director.CreateProductG<Smartphone>();
             Console.WriteLine("{0} >> Price : {1} $", prod, prod.Price);
 
             prod = Director.CreateProduct(Categories.PC);
             Console.WriteLine("{0} >> Price : {1} $", prod, prod.Price);
 
+            prod = Director.CreateProductNew(Categories.Tablet);
+            Console.WriteLine("{0} >> Price : {1} $", prod, prod.Price);
+
+            prod = Director.CreateProductG<Laptop>();
+            Console.WriteLine("{0} >> Price : {1} $", prod, prod.Price);
         }
     }
 }
