@@ -56,6 +56,10 @@
       <Project>{e988c139-cc45-48dd-9fac-7c8c85d05d18}</Project>
       <Name>26136</Name>
     </ProjectReference>
+    <ProjectReference Include="..\create_23113_library\create_26113_library.csproj">
+      <Project>{3102de2d-1d7d-4581-af4e-b39addf0098e}</Project>
+      <Name>create_26113_library</Name>
+    </ProjectReference>
     <ProjectReference Include="..\create_26108_library\create_26108_library.csproj">
       <Project>{48f97572-8f77-459d-8089-e7414dde39e0}</Project>
       <Name>create_26108_library</Name>
