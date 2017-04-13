@@ -62,7 +62,7 @@
       <Project>{1b711053-989d-42f7-a458-155eb8ec5076}</Project>
       <Name>26130_library</Name>
     </ProjectReference>
-    <ProjectReference Include="..\26134\26134.csproj">
+    <ProjectReference Include="..\26134\26134-Rostislav.csproj">
       <Project>{011f73e7-0956-45a0-8f9d-fe5211a72266}</Project>
       <Name>26134</Name>
     </ProjectReference>
