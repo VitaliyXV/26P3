@@ -43,9 +43,11 @@
   <ItemGroup>
     <Compile Include="Creators\CameraCreator.cs" />
     <Compile Include="Creators\ComputerCreator.cs" />
+    <Compile Include="Creators\Director.cs" />
     <Compile Include="Creators\PhoneCreator.cs" />
     <Compile Include="Creators\TabletCreator.cs" />
     <Compile Include="Creators\TVCreator.cs" />
+    <Compile Include="Enums\Devices.cs" />
     <Compile Include="IProductFactory.cs" />
     <Compile Include="Products\Camera.cs" />
     <Compile Include="Enums\Category.cs" />
