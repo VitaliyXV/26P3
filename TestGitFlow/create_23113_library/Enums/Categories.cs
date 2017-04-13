@@ -1,5 +1,4 @@
-﻿
-namespace create_26113_library
+﻿namespace create_26113_library
 {
     public enum Categories
     {

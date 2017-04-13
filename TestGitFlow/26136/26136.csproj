@@ -39,6 +39,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creator\BoardGamesCreator.cs" />
+    <Compile Include="Creator\ComputerCreator.cs" />
+    <Compile Include="Creator\PhoneCreator.cs" />
+    <Compile Include="Creator\ProductCreator.cs" />
+    <Compile Include="Creator\Director.cs" />
+    <Compile Include="Creator\SaladCreator.cs" />
+    <Compile Include="Creator\ShirtCreator.cs" />
+    <Compile Include="Creator\SofaCreator.cs" />
     <Compile Include="Model\CategoryType.cs" />
     <Compile Include="Model\Computer.cs" />
     <Compile Include="Model\IProduct.cs" />
