@@ -11,10 +11,8 @@ namespace TestGitFlowConsole
     {
         static void Main(string[] args)
         {
-
             Director dr = new Director();
             IProduct prod = dr.CreateProduct<PhoneAukva>();
-
         }
     }
 }

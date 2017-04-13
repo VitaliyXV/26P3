@@ -41,14 +41,21 @@
   <ItemGroup>
     <Compile Include="IProduct.cs" />
     <Compile Include="director.cs" />
-    <Compile Include="PhoneAukva.cs" />
-    <Compile Include="PhoneBlack.cs" />
-    <Compile Include="PhoneDualSim.cs" />
-    <Compile Include="PhonePhone.cs" />
-    <Compile Include="PhoneSmartfon.cs" />
+    <Compile Include="ClassPhone\PhoneAukva.cs" />
+    <Compile Include="Creator\PhoneAukvaCreator.cs" />
+    <Compile Include="ClassPhone\PhoneBlack.cs" />
+    <Compile Include="Creator\PhoneBlackCreator.cs" />
+    <Compile Include="ClassPhone\PhoneDualSim.cs" />
+    <Compile Include="Creator\PhoneDualSimCreator.cs" />
+    <Compile Include="ClassPhone\PhonePhone.cs" />
+    <Compile Include="Creator\PhonePhoneCreator.cs" />
+    <Compile Include="ClassPhone\PhoneSmartfon.cs" />
+    <Compile Include="Creator\PhoneSmartfonCreator.cs" />
+    <Compile Include="ProductCreater.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="type.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
