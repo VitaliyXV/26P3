@@ -8,7 +8,7 @@ namespace _26130_library.Product
 {
     public interface IProduct
     {
-        int Id {get; }
+        int Id { get;  }
         int Price { get;  }
         Phone Category { get;  }
     }

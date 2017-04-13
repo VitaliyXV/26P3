@@ -8,9 +8,9 @@ namespace _26130_library.Product
 {
     public class PhoneOne : IProduct
     {
-        public int Id {get { return 1; } }
+        public int Id { get; set; }
 
-        public int Price { get { return 1000; }  }
+        public int Price { get; set; }
 
         public Phone Category { get {return Phone.HTC; }  }
     }

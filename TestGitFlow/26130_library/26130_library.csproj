@@ -39,6 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factory\CreateHTC.cs" />
+    <Compile Include="Factory\CreateNokia.cs" />
+    <Compile Include="Factory\CreateProduct.cs" />
+    <Compile Include="Factory\CreateSamsung.cs" />
+    <Compile Include="Factory\CreateSony.cs" />
+    <Compile Include="Factory\CreatorApple.cs" />
+    <Compile Include="Factory\Director.cs" />
     <Compile Include="Product\IProduct.cs" />
     <Compile Include="Product\Phone.cs" />
     <Compile Include="Product\PhoneFive.cs" />
