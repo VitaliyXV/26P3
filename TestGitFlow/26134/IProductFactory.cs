@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace _26134
 {
-    public class Rostislav
+    interface IProductFactory
     {
+        IProduct CreateProduct(Category category);
     }
 }
