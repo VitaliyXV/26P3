@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _26114_library
+﻿namespace _26114_library
 {
     public class Director
     {
         private IProduct prod;
-        public IProduct CreateProduct(int Id, double price, type type)
+        public IProduct CreateProduct<T>() where T : IProduct, new()
         {
-            prod = new Phone(Id, price, type);
+            prod = new T ();
             return prod;
         }
     }

@@ -48,17 +48,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\create_26108_library\create_26108_library.csproj">
-      <Project>{48f97572-8f77-459d-8089-e7414dde39e0}</Project>
-      <Name>create_26108_library</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\create_26133_library\create_26133_library.csproj">
-      <Project>{862ab5ea-d2f8-46f5-ac7a-5a3d06d28eeb}</Project>
-      <Name>create_26133_library</Name>
-    </ProjectReference>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Service References\" />
+    <ProjectReference Include="..\26114_library\26114_library.csproj">
+      <Project>{0be5c367-7b9e-4ed0-83b1-cc232ae998d6}</Project>
+      <Name>26114_library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
