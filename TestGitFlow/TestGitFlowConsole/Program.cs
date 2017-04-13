@@ -8,10 +8,6 @@ namespace TestGitFlowConsole
     {
         static void Main(string[] args)
         {
-            //IProduct pr = Director.CreateProduct(CategoryType.Clothing, 1, 15);
-
-            IProduct pr = Director.CreateProduct<Sofa>(CategoryType.Clothing, 1, 15);
-            Console.WriteLine(pr.Price);
         }
     }
 }
