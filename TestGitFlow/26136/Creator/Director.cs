@@ -11,6 +11,8 @@ namespace _26136.Creator
     {
         private static Dictionary<CategoryType, ProductCreator> ProductCreaters = new Dictionary<CategoryType, ProductCreator>();
 
+        private static Dictionary<Type, ProductCreator> ProductCreatersTypes = new Dictionary<Type, ProductCreator>();
+
         static Director()
         {
             ProductCreaters.Add(CategoryType.Clothing, new ShirtCreator());
@@ -18,40 +20,27 @@ namespace _26136.Creator
             ProductCreaters.Add(CategoryType.Food, new SaladCreator());
             ProductCreaters.Add(CategoryType.Furniture, new SofaCreator());
             ProductCreaters.Add(CategoryType.Games, new BoardGamesCreator());
+
+
+            ProductCreatersTypes.Add(typeof(Sofa), new SofaCreator());
+            ProductCreatersTypes.Add(typeof(Shirt), new ShirtCreator());
+            ProductCreatersTypes.Add(typeof(Salad), new SaladCreator());
+            ProductCreatersTypes.Add(typeof(BoardGames), new BoardGamesCreator());
+            ProductCreatersTypes.Add(typeof(Computer), new ComputerCreator());
         }
 
        
 
 
-        public static IProduct CreateProduct(CategoryType type,int id,int price)
+        public static IProduct CreateProduct<T>(CategoryType type,int id,int price)
         {
-            ProductCreator cr;
-            IProduct product = null;
+            return ProductCreaters[type].CreateProduct(id, price);
+        }
 
-            cr = ProductCreaters[type];
-            switch (type)
-            {
-                case CategoryType.Food:
-                    product = cr.CreateProduct(id,price);
-                    break;
-                case CategoryType.ElectricalEngineering:
-                    cr = new ComputerCreator();
-                    product = cr.CreateProduct(id,price);
-                    break;
-                case CategoryType.Clothing:
-                    product = cr.CreateProduct(id,price);
-                   break;
-                case CategoryType.Furniture:
-                    product = cr.CreateProduct(id,price);
-                    break;
-                case CategoryType.Games:
-                    product = cr.CreateProduct(id,price);
-                    break;
-                default:
-                    break;
-            }
 
-            return product;
+        public static IProduct Create<T>(CategoryType type, int id, int price)
+        {
+            return ProductCreatersTypes[typeof(T)].CreateProduct(id, price);
         }
     }
 }
