@@ -4,25 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26144
+namespace _26144.Model
 {
-    class Climate : IProduct
+    class Kitchen : IProduct
     {
         public int Id { get; private set; }
         public int Price { get; set; }
         public Category Category { get; private set; }
 
-        public void Cool()
+        public void MakePizza()
         {
-            Console.WriteLine("Cool this room");
+            Console.WriteLine("Making Pizza");
         }
 
-        public void Warm()
-        {
-            Console.WriteLine("Warm this room");
-        }
-
-        public Climate(int id, int price)
+        public Kitchen(int id, int price)
         {
             Id = id;
             Price = price;
