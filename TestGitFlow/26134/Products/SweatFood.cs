@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _26134
 {
-    class SweatFood : IProduct
+    public class SweatFood : IProduct
     {
         public int Id
         {

@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26131_library", "26131_libr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "create_26133_library", "create_26133_library\create_26133_library.csproj", "{862AB5EA-D2F8-46F5-AC7A-5A3D06D28EEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26134", "26134\26134.csproj", "{011F73E7-0956-45A0-8F9D-FE5211A72266}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26134-Rostislav", "26134\26134-Rostislav.csproj", "{011F73E7-0956-45A0-8F9D-FE5211A72266}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26130_library", "26130_library\26130_library.csproj", "{1B711053-989D-42F7-A458-155EB8EC5076}"
 EndProject
@@ -21,13 +21,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26139", "26139\26139.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26106_library", "26106_library\26106_library.csproj", "{12759AF8-934F-4109-AE54-0E349670E511}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "create_26113_library", "create_23113_library\create_26113_library.csproj", "{3102DE2D-1D7D-4581-AF4E-B39ADDF0098E}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "create_26108_library", "create_26108_library\create_26108_library.csproj", "{48F97572-8F77-459D-8089-E7414DDE39E0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26144", "26144\26144.csproj", "{DAD3F9FA-2A27-4B41-A076-77F5C86EA117}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "create_23113_library", "create_23113_library\create_23113_library.csproj", "{3102DE2D-1D7D-4581-AF4E-B39ADDF0098E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "create_26113_library", "create_23113_library\create_26113_library.csproj", "{A358D9B5-8BC5-4924-8210-4F221F2EF344}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "create_23113_library", "create_23113_library\create_23113_library.csproj", "{3341444C-6C1C-4F0E-BCFF-9583DA6AE816}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +71,10 @@ Global
 		{12759AF8-934F-4109-AE54-0E349670E511}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12759AF8-934F-4109-AE54-0E349670E511}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12759AF8-934F-4109-AE54-0E349670E511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3102DE2D-1D7D-4581-AF4E-B39ADDF0098E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3102DE2D-1D7D-4581-AF4E-B39ADDF0098E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3102DE2D-1D7D-4581-AF4E-B39ADDF0098E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3102DE2D-1D7D-4581-AF4E-B39ADDF0098E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{48F97572-8F77-459D-8089-E7414DDE39E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{48F97572-8F77-459D-8089-E7414DDE39E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48F97572-8F77-459D-8089-E7414DDE39E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -79,14 +83,10 @@ Global
 		{DAD3F9FA-2A27-4B41-A076-77F5C86EA117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAD3F9FA-2A27-4B41-A076-77F5C86EA117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAD3F9FA-2A27-4B41-A076-77F5C86EA117}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3102DE2D-1D7D-4581-AF4E-B39ADDF0098E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3102DE2D-1D7D-4581-AF4E-B39ADDF0098E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3102DE2D-1D7D-4581-AF4E-B39ADDF0098E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3102DE2D-1D7D-4581-AF4E-B39ADDF0098E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A358D9B5-8BC5-4924-8210-4F221F2EF344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A358D9B5-8BC5-4924-8210-4F221F2EF344}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A358D9B5-8BC5-4924-8210-4F221F2EF344}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A358D9B5-8BC5-4924-8210-4F221F2EF344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3341444C-6C1C-4F0E-BCFF-9583DA6AE816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3341444C-6C1C-4F0E-BCFF-9583DA6AE816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3341444C-6C1C-4F0E-BCFF-9583DA6AE816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3341444C-6C1C-4F0E-BCFF-9583DA6AE816}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

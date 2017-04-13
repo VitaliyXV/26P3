@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _26134
 {
-    class Meat : IProduct
+    public class Meat : IProduct
     {
         public int Id
         {
