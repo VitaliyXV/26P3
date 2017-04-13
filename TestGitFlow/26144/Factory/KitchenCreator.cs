@@ -1,16 +1,17 @@
-﻿using System;
+﻿using _26144.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26144
+namespace _26144.Factory
 {
-    public class ClimateCreator : ProductCreator
+    public class KitchenCreator : ProductCreator
     {
         public override IProduct CreateProduct(int id, int price)
         {
-            return new Climate(id, price);
+            return new Kitchen(id, price);
         }
     }
 }

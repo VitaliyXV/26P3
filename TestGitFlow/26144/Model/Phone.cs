@@ -4,20 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26144
+namespace _26144.Model
 {
-    class Kitchen : IProduct
+    public class Phone : IProduct
     {
         public int Id { get; private set; }
         public int Price { get; set; }
         public Category Category { get; private set; }
 
-        public void MakePizza()
+        public void RingToMother()
         {
-            Console.WriteLine("Making Pizza");
+            Console.WriteLine("Allo, Mother!");
         }
 
-        public Kitchen(int id, int price)
+        public Phone(int id, int price)
         {
             Id = id;
             Price = price;
