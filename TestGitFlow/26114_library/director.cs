@@ -3,7 +3,7 @@
     public class Director
     {
         private IProduct prod;
-        public IProduct CreateProduct<T>() where T : IProduct, new()
+        public IProduct CreateProduct<T>(int id, double price) where T : IProduct, new()
         {
             prod = new T ();
             return prod;

@@ -52,10 +52,6 @@
       <Project>{0be5c367-7b9e-4ed0-83b1-cc232ae998d6}</Project>
       <Name>26114_library</Name>
     </ProjectReference>
-    <ProjectReference Include="..\create_26133_library\create_26133_library.csproj">
-      <Project>{862ab5ea-d2f8-46f5-ac7a-5a3d06d28eeb}</Project>
-      <Name>create_26133_library</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

@@ -1,4 +1,4 @@
-
+using _26114_library;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ namespace TestGitFlowConsole
         {
 
             Director dr = new Director();
-            IProduct prod = dr.CreateProduct(1, 2.5, type.black);
+            IProduct prod = dr.CreateProduct<PhoneAukva>();
 
         }
     }

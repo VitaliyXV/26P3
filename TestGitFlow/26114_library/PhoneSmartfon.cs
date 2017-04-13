@@ -8,11 +8,15 @@
 
         public type Type { get; private set; }
 
-        //public PhoneSmartfon(int Id, double Price)
         public PhoneSmartfon()
         {
-            //this.Id = Id;
-            //this.Price = Price;
+            this.Type = type.smartfon;
+        }
+
+        public PhoneSmartfon(int Id, double Price)
+        {
+            this.Id = Id;
+            this.Price = Price;
             this.Type = type.smartfon;
         }
     }
