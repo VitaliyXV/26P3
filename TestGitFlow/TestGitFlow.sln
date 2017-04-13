@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGitFlowConsole", "TestGitFlowConsole\TestGitFlowConsole.csproj", "{EE5E83BE-D8C6-4BD9-AED4-59D2DA89ACEC}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "create_26108_library", "create_26108_library\create_26108_library.csproj", "{48F97572-8F77-459D-8089-E7414DDE39E0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26144", "26144\26144.csproj", "{DAD3F9FA-2A27-4B41-A076-77F5C86EA117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26158", "26158\26158.csproj", "{057468F6-F58C-4101-99FA-B721F42242EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{DAD3F9FA-2A27-4B41-A076-77F5C86EA117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAD3F9FA-2A27-4B41-A076-77F5C86EA117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAD3F9FA-2A27-4B41-A076-77F5C86EA117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{057468F6-F58C-4101-99FA-B721F42242EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{057468F6-F58C-4101-99FA-B721F42242EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{057468F6-F58C-4101-99FA-B721F42242EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{057468F6-F58C-4101-99FA-B721F42242EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
