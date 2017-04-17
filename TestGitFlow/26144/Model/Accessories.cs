@@ -4,20 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26144
+namespace _26144.Model
 {
-    class TV : IProduct
+    class Accessories : IProduct
     {
         public int Id { get; private set; }
         public int Price { get; set; }
         public Category Category { get; private set; }
 
-        public void WatchTV()
+        public void ConnectThisDevice()
         {
-            Console.WriteLine("You are waching CNN");
+            Console.WriteLine("Connecting this device...");
         }
 
-        public TV(int id, int price)
+        public Accessories(int id, int price)
         {
             Id = id;
             Price = price;

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26144
+namespace _26144.Model
 {
     public interface IProduct
     {

@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _26158.Model;
+using _26158.Factory;
 
-namespace create_26133_library.Enums
+namespace _26158
 {
-    enum Devices { TV, Tablet, Phone, Computer, Camera}
+    public class Director
+    {
+    }
 }

@@ -4,10 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26144
+namespace _26144.Model
 {
-    public abstract class ProductCreator
+    public enum Category
     {
-        public abstract IProduct CreateProduct(int id, int price);
+        Phone,
+        TV,
+        Climate,
+        Kitchen,
+        Accessories
     }
 }
