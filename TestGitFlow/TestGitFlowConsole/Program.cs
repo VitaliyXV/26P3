@@ -1,6 +1,5 @@
-﻿using create_26113_library;
-using create_26113_library.Builder;
-using create_26113_library.Factory;
+﻿using create_26133_library;
+using create_26133_library.Creators;
 using System;
 
 namespace TestGitFlowConsole
@@ -9,12 +8,20 @@ namespace TestGitFlowConsole
     {
         static void Main(string[] args)
         {
-            IProduct prod = Director.CreateProductG<Laptop>();
-            Console.WriteLine("{0} >> Price : {1} $", prod, prod.Price);
+            var product1 = Director<ComputerCreator>.CreateProduct(Category.xiomi);
+            var product2 = Director<TVCreator>.CreateProduct(Category.samsung);
+            var product3 = Director<PhoneCreator>.CreateProduct(Category.nokia);
+            var product4 = Director<CameraCreator>.CreateProduct(Category.lg);
+            Console.WriteLine(GetProduct(product1));
+            Console.WriteLine(GetProduct(product2));
+            Console.WriteLine(GetProduct(product3));
+            Console.WriteLine(GetProduct(product4));
+        }
 
-            prod = Director.CreateProduct(Categories.PC);
-            Console.WriteLine("{0} >> Price : {1} $", prod, prod.Price);
-
+        static private string GetProduct(IProduct product)
+        {
+            var str = product.ProductName + " Id: " + product.Id + " Price: " + product.Price + " Category: " + product.Category;
+            return str;
         }
     }
 }
