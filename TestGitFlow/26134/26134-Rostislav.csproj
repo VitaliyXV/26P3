@@ -41,6 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factory\Berry.cs" />
+    <Compile Include="Factory\Fruit.cs" />
+    <Compile Include="Factory\Meat.cs" />
+    <Compile Include="Factory\SweatFood.cs" />
+    <Compile Include="Factory\Vegetable.cs" />
+    <Compile Include="IProductFactory.cs" />
     <Compile Include="Products\Berry.cs" />
     <Compile Include="Products\Fruit.cs" />
     <Compile Include="IProduct.cs" />

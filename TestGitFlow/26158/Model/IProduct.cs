@@ -4,14 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _26144
+namespace _26158.Model
 {
-    public enum Category
+    public interface IProduct
     {
-        Phone,
-        TV,
-        Climate,
-        Kitchen,
-        Accessories
+        int Id { get; }
+        int Price { get; set; }
     }
 }

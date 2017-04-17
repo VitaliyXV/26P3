@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3341444C-6C1C-4F0E-BCFF-9583DA6AE816}</ProjectGuid>
+    <ProjectGuid>{057468F6-F58C-4101-99FA-B721F42242EF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>create_23113_library</RootNamespace>
-    <AssemblyName>create_23113_library</AssemblyName>
+    <RootNamespace>_26158</RootNamespace>
+    <AssemblyName>26158</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,12 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Categories.cs" />
-    <Compile Include="IProduct.cs" />
-    <Compile Include="Laptop.cs" />
-    <Compile Include="Phone.cs" />
+    <Compile Include="Director.cs" />
+    <Compile Include="Factory\ProductCreator.cs" />
+    <Compile Include="Model\Cheerfulcookies.cs" />
+    <Compile Include="Model\IProduct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
