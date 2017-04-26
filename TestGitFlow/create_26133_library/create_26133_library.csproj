@@ -57,6 +57,24 @@
     <Compile Include="Products\Tablet.cs" />
     <Compile Include="Products\TV.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\26130_library\26130_library.csproj">
+      <Project>{1b711053-989d-42f7-a458-155eb8ec5076}</Project>
+      <Name>26130_library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\26134\26134-Rostislav.csproj">
+      <Project>{011f73e7-0956-45a0-8f9d-fe5211a72266}</Project>
+      <Name>26134</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\26136\26136.csproj">
+      <Project>{e988c139-cc45-48dd-9fac-7c8c85d05d18}</Project>
+      <Name>26136</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestGitFlowConsole\TestGitFlowConsole.csproj">
+      <Project>{ee5e83be-d8c6-4bd9-aed4-59d2da89acec}</Project>
+      <Name>TestGitFlowConsole</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
